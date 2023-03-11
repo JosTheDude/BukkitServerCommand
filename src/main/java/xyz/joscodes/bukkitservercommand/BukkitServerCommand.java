@@ -36,7 +36,7 @@ public final class BukkitServerCommand extends JavaPlugin {
 		// send player to server using Velocity Plugin Messaging
 		sendPlayerToServer(player, serverName);
 		if (!(sender instanceof Player)) {
-			String message = String.format("%sSent %s to the %s server!", ChatColor.GREEN, playerName, ChatColor.YELLOW + serverName + ChatColor.GREEN);
+			String message = String.format("%sSent %s to the %s server!", ChatColor.YELLOW, playerName, ChatColor.YELLOW + serverName + ChatColor.GREEN);
 			sender.sendMessage(message);
 		}
 		return true;

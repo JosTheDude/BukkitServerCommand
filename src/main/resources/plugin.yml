@@ -1,7 +1,7 @@
 name: BukkitServerCommand
 version: '${version}'
 main: xyz.joscodes.bukkitservercommand.BukkitServerCommand
-api-version: 1.19
+api-version: 1.13
 prefix: BukkitServerCommand
 authors: [ Jos ]
 description: Let's you run and send players to other servers from the back-end
