@@ -6,3 +6,8 @@ prefix: BukkitServerCommand
 authors: [ Jos ]
 description: Let's you run and send players to other servers from the back-end
 website: https://joscodes.xyz/
+
+commands:
+  c-server:
+    description: Send a player to a different server on the Velocity proxy.
+    usage: /sendtoserver <player> <server>
